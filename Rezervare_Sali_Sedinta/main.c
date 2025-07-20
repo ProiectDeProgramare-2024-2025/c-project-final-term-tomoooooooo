@@ -2,6 +2,12 @@
 #include <stdlib.h>
 #include <string.h>
 
+#define RESET   "\033[0m"
+#define RED     "\033[1;31m"
+#define GREEN   "\033[1;32m"
+#define YELLOW  "\033[1;33m"
+#define CYAN    "\033[1;36m"
+
 #define MAX_SALI 100
 #define MAX_REZERVARI 100
 #define MAX_LEN 100
@@ -188,14 +194,15 @@ void anuleazaRezervare() {
 
 // Meniu text pentru utilizator
 void meniu() {
-    printf("\n--- Meniu ---\n");
-    printf("1. Adauga sala\n");
-    printf("2. Sterge sala\n");
-    printf("3. Afiseaza sali\n");
-    printf("4. Rezerva sala\n");
-    printf("5. Anuleaza rezervare\n");
-    printf("6. Afiseaza rezervari\n");
-    printf("0. Iesire\n");
+    printf(YELLOW "\n=== Meniu principal ===\n" RESET);
+    printf(CYAN "1. Adauga sala\n" RESET);
+    printf(CYAN "2. Sterge sala\n" RESET);
+    printf(CYAN "3. Afiseaza sali\n" RESET);
+    printf(CYAN "4. Rezerva sala\n" RESET);
+    printf(CYAN "5. Anuleaza rezervare\n" RESET);
+    printf(CYAN "6. Afișeaza rezervari\n" RESET);
+    printf(CYAN "0. Iesire\n" RESET);
+    printf(YELLOW "Alege o optiune: " RESET);
 }
 
 int main() {

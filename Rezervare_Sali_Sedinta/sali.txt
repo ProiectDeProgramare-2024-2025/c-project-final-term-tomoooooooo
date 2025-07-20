@@ -2,3 +2,4 @@ Sala A|20
 Sala B|15
 Sala C|50
 Sala F|25
+Sala E|20
