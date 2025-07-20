@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1752950644 source:c:\users\hp\documents\github\proiect_c\rezervare_sali_sedinta\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1752950644 source:c:\users\hp\documents\github\c-project-read-from-file-tomoooooooo\rezervare_sali_sedinta\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
